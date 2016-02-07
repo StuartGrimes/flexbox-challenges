@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Boxes</title>
+    <style>
+#container{
+    display: flex;
+    width: 90%;
+    
+    background-color: rgb(127, 125, 24);
+    flex-flow: row wrap;
+
+}
+
+.boxes{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 249, 47);
+    display: inline-block;
+    margin: 10px;
+
+}
+
+
+p{
+    align-content: center;
+}
+    </style>
+</head>
+<body>
+    <section id="container">
+        <div class="boxes" id="box1"><p>Box 1</p></div>
+        <div class="boxes" id="box2"><p>Box 2</p></div>
+        <div class="boxes" id="box3"><p>Box 3</p></div>
+        <div class="boxes" id="box4"><p>Box 4</p></div>
+    </section>
+</body>
+</html>
